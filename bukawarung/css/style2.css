@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+h3{
+    color: #00FFD1;
+    padding: 15px;
+}
+header {
+    /* background-color: #c70039; */
+    background-color: #2940D3;
+    color: #fff;
+}
+header h1 {
+    float: right;
+    padding: 10px;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    padding: 20px 0 20px 15px;
+    display: inline-block;
+}
+.box {
+    width: auto;
+    min-height: auto;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 15px;
+}
+.box h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.box::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.search{
+    padding: 15px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.search input[type=text]{
+    width: 60%;
+    padding: 10px;
+}
+.search input[type=submit]{
+    padding: 12px 15px;
+    background-color: #54B435;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.container ::after {
+    content:'';
+    display: block;
+    clear: both;
+}
+.container2 {
+    width: 85%;
+    margin: 0 auto;
+}
+.container2 ::after {
+    content:'';
+    display: block;
+    clear: both;
+}
+.col-5{
+    width: 20%;
+    height: 120px;
+    border: 1px solid;
+    text-align: center;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.col-5 img{
+    margin: 10px;
+}
+.col-4:hover{
+    box-shadow: 0 0 5px #0E5E6F;
+}
+.col-4{
+    width: 25%;
+    height: 320px;
+    border: 1px solid #ccc;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.col-4 img{
+    width: 100px;
+}
+.col-4 .nama {
+    color: #665;
+    margin-bottom: 5px;
+}
+.col-4 .harga {
+    font-weight: bold;
+    color: #c70039;
+    float: right;
+}
+hr{
+    width: 50px;
+    background-color: #0008C1;
+}
+.copy {
+    box-shadow: #0008C1;
+}
+.footer {
+    padding: 25px 0;
+    background-color: #fff;
+    color: #fff;
+    text-align: center
+}
+.footer p {
+    margin-bottom: 10px;
+}
+.footer small {
+    margin-top: 25px;
+    display: inline-block;
+}
+.col-2{
+    width: 50%;
+    min-height: 200px; 
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+.col-2 img {
+    border: 1px solid #f9f9f9;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.col-2 h2 {
+    margin-bottom: 10px;
+}
+.col-2 h4 {
+    color: #c70039;
+}
+.col-2 {
+    margin: 15px 0;
+    text-align: justify;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+/* Ingat kalau sudah benar semua jangan lupa bersyukur */

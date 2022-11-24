@@ -1,0 +1,64 @@
+<-- CRUD -->
+
+CRUD adalah singkatan dari create, read, update, dan delete.
+Kegunaan dari pemrograman CRUD adalah untuk membaca, menyisipkan, memanipulasi, mengedit, dan menghapus data tabel.
+
+
+<-- BukaWarung -->
+========================================================
+/* tb_admin */
+1.admin_id			| int (11) PRI
+2.admin_name			| varchar (50)
+3.username			| varchar (50)
+4.password			| char (12)
+5.admin_telp			| varchar (20)			
+6.admin_emali			| varchar (50)
+7.admin_addres			| text 
+
+========================================================
+/* tb_category */
+1.category_id			| int (11) PRI
+2.category_name			| varchar (25)
+
+========================================================
+/* tb_product */
+1.
+2.category_id			| int (11) foreign key
+3.product_name			| varchar (100)
+4.product_price			| int (11)
+5.product_descreption   	| text	
+6.product_image			| varchar (100)
+7.product_status		| tinyin (1)
+8.data_created			| timestap
+
+========================================================
+
+<!-- Langkah pembuatan -->
+
+1. Membuat databases
+	a.tb_admin
+	b.tb_category
+	c.tb_product
+
+2. Membuat script php untuk admin
+	<!-- Untuk login -->
+	a. login.php
+	b. register.php
+
+	<!-- Tampilan luar -->
+	a. dashboard.php
+	b. profil.php
+	c. data-kategori.php
+	d. data-produk.php
+	e. keluar.php
+
+	<!-- Edit dalam -->
+	a. edit-kategori.php
+	b. edit-produk.php
+
+	<!-- Hapus Dalam -->
+	a. hapus-produk.php
+	b. proses-hapus.php
+
+3. Membuat Script php untuk pengunjung
+	a. s
